@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(233, 233, 233);
+}
+
+.form-container {
+    position: absolute;
+    top: 25vh;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.img1 {
+    padding-left: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.head1 {
+    display: inline-block;
+    padding-left: 3spx;
+}

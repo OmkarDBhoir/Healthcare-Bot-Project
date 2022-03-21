@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(233, 233, 233);
+}
+
+.form-container {
+  width: 800px;
+  height: 700px;
+  position: absolute;
+  top: 15vh;
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.botheader {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  overflow-y: visible;
+  background: rgb(13, 110, 253);
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.received-msg {
+  display: inline-block;
+  padding: 0 0 0 20px;
+  vertical-align: top;
+  width: 92%;
+}
+
+.received-msg-inbox {
+  width: 57%;
+}
+
+.received-msg-inbox p {
+  background: #efefef none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time {
+  color: #777;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.sent-msg {
+  overflow: hidden;
+  margin: 26px 20px;
+}
+
+.sent-msg-inbox {
+  float: left;
+  width: 46%;
+  margin-left: 45%;
+}
+
+.sent-msg-inbox p {
+  background: #007bff none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.input-bar {
+  float: right;
+  margin-top: 200px;
+  position: fixed fixed;
+  margin-right: 1%;
+  outline: none !important;
+  border-radius: 20px;
+  width: 98% !important;
+  background-color: #fff;
+}
+
+.form-control {
+  border: 1 !important;
+  border-radius: 20px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 300px;
+  }
+  .input-bar {
+    float: right;
+    margin-top: 18px;
+    position: fixed fixed;
+    margin-right: 1%;
+    outline: none !important;
+    border-radius: 20px;
+    width: 98% !important;
+    background-color: #fff;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .form-container {
+    width: 500px;
+  }
+  .input-bar {
+    float: right;
+    margin-top: 120px;
+    position: fixed fixed;
+    margin-right: 1%;
+    outline: none !important;
+    border-radius: 20px;
+    width: 98% !important;
+    background-color: #fff;
+  }
+}
